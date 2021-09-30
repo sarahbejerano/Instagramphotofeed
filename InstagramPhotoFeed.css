@@ -1,54 +1,43 @@
-body {background: rgb(202, 202, 202);
-    margin:0px;
+body{
+    padding: 2px 16px;
+    background-color: black;
+}
+
+.post{
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    margin: 0 auto;
+    background-color: white;
+}
+.header{
+    display: flex;
+    align-items: center;
 
 }
-div{
-    box-sizing: border-box;
+.rigoberto{
+    margin-right: auto;
+    margin-left: 10px;
+    font-size: 18px;
 }
-header{
-    background: white;
-    padding: 10px;
-    padding-left: 100px;
-
-}
-h1{ font-size:inherit
- ;
-}
-
-div.post{
-    background: white;
-    margin-top:  10px; ;
-}
-div.post img{
+img{
     width: 100%;
+    height: auto;
+    
+}
+.imagen {
+    max-height:min-content ;
+}
+.footer{
+padding: 20px;
+
+}
+.iconos {
+     display: flex;
+     justify-content:space-between;  
+     align-items: baseline;
 }
 
-span {
-    float: right;
-
-}
-
-div.post .post-header div:first-child {
-    display: inline-block;
-    width: 80%;
-    padding-left: 20px;
-}
-
-div.post .post-header div:last-child {
-  display: inline-block;
-    width: 20%;
-    padding-right: 40px;
-    color: gray;
-}
-
-div.container{
-    width: 600px;
-    margin:auto;
-}
-
-.parrafo{
-    padding: 10px; ;
+.text{
     text-align: justify;
 }
 
